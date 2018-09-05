@@ -1,0 +1,34 @@
+.flex {
+  display: flex;
+}
+
+
+#header {
+  // margin: 2% 2% 2% 2%;
+  color: blue;
+  flex-direction: row;
+  // justify-content: space-around;
+  background-color: lightgray;
+  // position: relative;
+  // width: 100%;
+  // height: 1%;
+}
+#header-left {
+  // position: static;
+  // justify-content: space-between;
+  float:left;
+
+}
+#header-station {
+  justify-content: space-between;
+  align-items: baseline;
+}
+#header-right {
+  position: relative;
+  // float: right;
+  align-items: baseline;
+}
+
+.container {
+  background-color: lightgray;
+}

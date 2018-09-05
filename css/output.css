@@ -1,0 +1,29 @@
+.flex {
+  display: flex;
+}
+
+#header {
+  color: blue;
+  flex-direction: row;
+  background-color: lightgray;
+}
+
+#header-left {
+  float: left;
+}
+
+#header-station {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#header-right {
+  position: relative;
+  align-items: baseline;
+}
+
+.container {
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=output.css.map */
